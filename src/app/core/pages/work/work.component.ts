@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { ExperienceInformation } from 'src/app/shared/models/project-model';
 
 @Component({
-  selector: 'app-overview',
-  templateUrl: './overview.component.html',
-  styleUrls: ['./overview.component.scss'],
+  selector: 'shared-work',
+  templateUrl: './work.component.html',
+  styleUrls: ['./work.component.scss'],
 })
-export class OverviewComponent {
+export class WorkComponent {
   public sectionName: string = 'work';
 
   public principalImage: string = 'assets/img/work-2.jpg';
