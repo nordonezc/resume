@@ -20,7 +20,9 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npx ng build --configuration production --base-href /resume/
+        run: |
+          npx ng build --configuration production --base-href /resume/
+          cp dist/resume/index.html dist/resume/404.html
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
