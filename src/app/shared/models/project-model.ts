@@ -1,8 +1,12 @@
 import { SafeUrl } from '@angular/platform-browser';
 
 export interface ExperienceInformation {
-  imageExperience: string;
-  titleExperience: string;
-  descriptionExperience: string[];
-  urlExperience?: SafeUrl;
+  image: string;
+  title: string;
+  description: string[];
+  url?: SafeUrl;
+}
+
+export interface ExperienceResponse {
+  experiences: ExperienceInformation[];
 }

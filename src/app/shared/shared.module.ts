@@ -9,6 +9,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ConnectComponent } from './components/connect/connect.component';
 import { InformationComponent } from './components/information/information.component';
 import { CompoundCardsComponent } from './components/compound-cards/compound-cards.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -22,8 +23,9 @@ import { CompoundCardsComponent } from './components/compound-cards/compound-car
     InformationComponent,
     CompoundCardsComponent,
   ],
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   exports: [
+    RouterModule,
     HeaderComponent,
     FooterComponent,
     OverviewComponent,

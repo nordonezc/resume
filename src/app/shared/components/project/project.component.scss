@@ -1,0 +1,14 @@
+.image-container {
+    display: flex;             /* Activamos Flexbox */
+    justify-content: center;    /* Centrado horizontal */
+    align-items: center;        /* Centrado vertical */
+    height: 100%;               /* Importante: el padre debe tener altura para centrar verticalmente */
+    min-height: 200px;          /* Opcional: define una altura mínima según tu diseño */
+    overflow: hidden;           /* Evita que imágenes gigantes rompan el layout */
+
+    img {
+        max-width: 100%;        /* La imagen no se sale de su ancho */
+        max-height: 100%;       /* La imagen no se sale de su alto */
+        object-fit: contain;    /* Mantiene la proporción sin deformar */
+    }
+}

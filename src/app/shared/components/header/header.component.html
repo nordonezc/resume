@@ -1,4 +1,9 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav"
+  #rla="routerLinkActive"
+  routerLinkActive
+  [routerLinkActiveOptions]="{exact: false}"
+  [ngClass]="{'bg-dark navbar-dark': isProjectsPage, 'navbar-light': !isProjectsPage}"
+>
   <div class="container px-4 px-lg-5">
     <a class="navbar-brand" href="#page-top">nordonezc</a>
     <button
@@ -19,7 +24,7 @@
           <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" routerLink="/projects" routerLinkActive="active">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#signup">Contact</a>
