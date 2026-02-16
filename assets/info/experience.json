@@ -1,0 +1,56 @@
+{
+  "experiences": [
+    {
+      "image": "assets/img/epam.png",
+      "title": "EPAM Systems",
+      "description": [
+        "Exchange payment information ensuring PCI standards and security compliance.",
+        "Collaborated with cross-functional teams to deliver high-quality enterprise software.",
+        "Mentored junior developers and promoted best practices in clean code and testing."
+      ]
+    },
+    {
+      "image": "assets/img/work-6.png",
+      "title": "Perficient",
+      "description": [
+        "Enhanced automated documentation tool.",
+        "Analyzed bugs root cause that did not accomplish security standards.",
+        "Extended data sent through gRPC and REST protocol."
+      ]
+    },
+    {
+      "image": "assets/img/work-5.png",
+      "title": "Blackboard Inc.",
+      "description": [
+        "Identified bugs in monolith architecture to support the principal business applications.",
+        "Motivated colleagues to learn skills that enhance personal and client goals."
+      ]
+    },
+    {
+      "image": "assets/img/work-4.jpg",
+      "title": "Pay U",
+      "description": [
+        "Investigated enterprise integration patterns to accelerate the payment process.",
+        "Informed problems and reached the solution by understanding internal business flow."
+      ]
+    },
+    {
+      "image": "assets/img/work-3.png",
+      "title": "Banco de Bogotá",
+      "description": [
+        "Coordinated and mentored the development team to accomplish the client's necessities on time.",
+        "Pioneered the implementation of E2E Tests and enhanced team productivity through agile practices.",
+        "Clarified business requirements to implement successfully new features."
+      ]
+    },
+    {
+      "image": "assets/img/work-1.png",
+      "title": "Sysware-Ingeniería S.A.S.",
+      "description": [
+        "Orchestrated all the SOAP services exposed by the different information systems of the client.",
+        "Design and develop the enterprise data bus structure to redirect information among systems.",
+        "Unified repeated data and stimulated the client's knowledge about the necessities of other areas."
+      ]
+    }
+  ]
+}
